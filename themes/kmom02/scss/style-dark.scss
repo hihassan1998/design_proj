@@ -1,0 +1,342 @@
+// Import dependencies and SCSS modules
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-dark';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import 'technology';
+@import 'analysis';
+
+/* General Styles */
+* {
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: $font-color-d;
+}
+
+body {
+  background-color: $background-color-d; // imported variable
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5rem;
+  color: $font-color-d; // Imported variable
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Lists */
+ol,
+ul {
+  padding-left: 1.5em;
+}
+
+/* Utility Classes */
+.hidden {
+  display: none !important;
+}
+
+/* Layout */
+.main {
+  flex: 1 0 auto;
+  padding: 25px;
+  // background-color: yellow;
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
+  padding: 15px;
+}
+
+.header,
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $header-bg-color-d; // Imported variable
+
+  h1 {
+    color: $earthy-font;
+  }
+
+  a {
+    color: #772700;
+  }
+
+  a,
+  p {
+    text-decoration: none;
+  }
+}
+
+a {
+  color: $dark-green-d;
+}
+
+/* Title */
+.title {
+  margin-left: 25px;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.6em;
+  margin-top: 0.6em;
+  font-weight: bold;
+  color: $earthy-font;
+}
+
+p,
+td,
+th,
+li,
+dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+}
+
+.header {
+  border-bottom: 1px solid #222;
+
+  img {
+    width: 85px;
+  }
+}
+
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  border-top: 1px solid #222;
+  background-color: $footer-bg-color-d; // Imported variable
+
+  align-items: center;
+  flex-direction: column-reverse;
+  text-align: center;
+
+  .fa {
+    margin: 10px;
+    padding: 0 20px;
+  }
+
+  .fa:hover {
+    color: $earthy-font;
+    cursor: pointer;
+  }
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer .social {
+  font-size: 2rem;
+}
+
+/* Navbar styling */
+
+.slide {
+  overflow-y: hidden !important;
+  transition: height 0.5s ease-in !important;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 0;
+  list-style: none;
+  font-weight: 700;
+}
+
+.nav ul li {
+  padding: 0 1em;
+}
+
+.nav a,
+.nav-toggle {
+  color: #87b036;
+}
+
+.nav a {
+  border-radius: 15px;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav ul li:nth-child(odd) a {
+  color: #fff !important;
+}
+
+.nav ul li:nth-child(even) a {
+  color: #ff8c55;
+}
+
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+
+    border: 2px solid $earthy-font;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: $background-color-d;
+    padding: 5px;
+  }
+
+  .nav ul .active {
+    border: 0;
+    background-color: inherit;
+  }
+
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+
+    border: 2px solid $earthy-font;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: $background-color-d;
+    padding: 5px;
+  }
+}
+
+.active {
+  border: 2px dotted $earthy-font;
+  background-color: $background-color-d;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+code {
+  margin: 0 0.1em;
+  padding: 0.1em 0.2em;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  background: #474747;
+  font-family: monospace;
+  font-size: 0.85rem;
+  line-height: 1.9824;
+}
+
+pre {
+  padding: 0 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  background: #474747;
+}
+
+
+/* images stylings based on pages*/
+.hero {
+  margin: 25px auto;
+  display: flex;
+  width: 255px;
+  border-radius: 40%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.snapshots {
+  display: flex;
+  width: auto;
+  height: 350px;
+  margin: 5px auto;
+  border-radius: 15px;
+
+
+
+  @media (max-width: 767px) {
+    .snapshots {
+      width: auto;
+      height: 150px;
+    }
+  }
+}
+
+
+h4,
+h5,
+h6 {
+  color: #ff8c55 !important;
+}
+
+
+.links {
+  color: #ff8c55;
+}
+
+// dark-theame colored classes higher in hierarchy from analyisis.scss starts here
+.box-a {
+  color: $font-color;
+}
+
+.box a {
+  color: #000;
+}
+
+.subpage-sidebar li a {
+  text-decoration: none;
+  color: #000;
+}
+
+// dark-theame colored classes higher in hierarchy from analyisis.scss ends here
+
+article {
+  p {
+    color: $font-color;
+  }
+}
+
+aside {
+  li:active {
+    background-color: #fbf8ef;
+  }
+}

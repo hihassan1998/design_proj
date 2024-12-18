@@ -1,0 +1,150 @@
+.landingpage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row;
+
+  border: 1px dotted orangered;
+  gap: 20px;
+  padding: 20px;
+}
+
+.landingpage h1 {
+  grid-row: 1;
+  grid-column: span 3;
+  color: teal;
+  justify-self: center;
+}
+
+.box {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border: 5px solid black;
+  text-align: start;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+  font-size: 2rem;
+  font-weight: 600;
+  height: 150px;
+}
+
+.box:nth-child(3n + 1) {
+  background-color: #a1d6b2;
+}
+
+.box:nth-child(3n + 2) {
+  background-color: #c9e6f0;
+}
+
+.box:nth-child(3n) {
+  background-color: #f96e2a;
+}
+
+.box-1 {
+  grid-column: span 2;
+  grid-row: 2;
+}
+
+.box-2 {
+  grid-column: 2 / span 1;
+  grid-row: 3;
+}
+
+.box-3 {
+  grid-column: 2 / span 2;
+  grid-row: 4;
+  text-align: end;
+}
+
+.box-4 {
+  grid-column: 3 / span 1;
+  grid-row: 5;
+}
+
+.box-5 {
+  grid-column: 1 / span 2;
+  grid-row: 6;
+}
+
+.box-6 {
+  grid-column: 3 / span 1;
+  grid-row: 7;
+}
+
+.box.wide {
+  grid-column: span 3;
+  grid-row: 8;
+}
+
+/* technology/sub/.md Layout */
+
+/* .subpage-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: column;
+    border: 1px dotted orangered;
+    gap: 20px;
+    padding: 20px;
+} */
+
+/* Content for Sub-Pages */
+/* .subpage-content {
+    grid-column: 2 / span 2;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+/* Sidebar for Sub-Pages */
+/* .subpage-sidebar {
+    max-width: 250px;
+    background: #a6d7eb;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.subpage-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subpage-sidebar li {
+    margin-bottom: 10px;
+}
+
+.subpage-sidebar li a {
+    text-decoration: none;
+    color: #333;
+} */
+
+/*
+
+@media (max-width: 767px) {
+    .subpage-layout {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-flow: column;
+        border: 1px dotted orangered;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .subpage-sidebar {
+        grid-row: 1;
+        grid-column: span 2;
+        background: #a6d7eb;
+        padding: 15px;
+        border-radius: 8px;
+    max-width:none;
+
+    }
+
+    .subpage-content {
+        grid-column: span 2;
+        grid-row: 2;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    }
+} */

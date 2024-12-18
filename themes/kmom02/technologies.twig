@@ -1,0 +1,46 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="">
+        {% set technology_pages = pages('technology/sub') %}
+
+        {% set current_page_id = current_page.id %}
+
+        {% if current_page_id starts with 'technology/sub' %}
+
+            <div class="main-2">
+
+                <div class="subpage-layout">
+                    <aside class="subpage-sidebar"  aria-label="Innehållsförteckning">
+                        <h2>Innehållsförteckning</h2>
+                        <ul>
+                            {% for page in technology_pages if page.title and not page.hidden %}
+                                <li{% if page.id == current_page.id %} class="active"{% endif %}>
+                                    <a href="{{ page.url }}">{{ page.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </aside>
+                    <article class="subpage-content" role="main">
+                        <h1>{{ meta.title }}</h1>
+                        {{ content }}
+                    </article>
+                </div>
+            </div>
+        {% else %}
+            <!-- Main Page Layout (No Sidebar) -->
+            <div class="main">
+                <h1>Min egen layout från "technologies.twig"</h1>
+                <div class="landingpage">
+                    {{ content }}
+                </div>
+            </div>
+        {% endif %}
+
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+</html>
