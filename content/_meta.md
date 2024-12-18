@@ -1,6 +1,7 @@
 ---
-Logo: image/hh_logo_b-256x256.png
-Tagline: Hassans portfolio.
+# Logo: assets/img/hassanicon.png
+Logo: assets/img/favicon.png
+Tagline: 
 Social:
   - title: Github repo.
     url: https://github.com/hihassan1998/design-portfolio.git

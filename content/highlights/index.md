@@ -1,12 +1,16 @@
 ---
 Title: Highlights
 Description: This is my Highlights page.
-Template: technologies
+# Template: technologies
+Template: gallery
+
 ---
 
-# Analysis
-
-# Galleri sidan
+# Highlights sidan
+<div class="box-a box-a-1a">
+    Kmom04: 01_colors
+    <a href="%base_url%?highlights/items/01_colors" class="read-more">Read More</a>
+</div>
 
 <div class="gallery">
 
@@ -123,10 +127,8 @@ Template: technologies
   </div>
 </div>
 
-
 <div class="box-a wide-a">
     SESSION-knappar
     <a href="?action=session_destroy">Destroy Session</a>
     <a href="?action=theme">Swap theme</a>
 </div>
-
