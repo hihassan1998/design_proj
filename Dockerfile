@@ -19,16 +19,16 @@ RUN a2enmod rewrite
 WORKDIR /var/www/html
 
 # Copy the application files to the web server directory
-COPY public /var/www/html/public
 COPY assets /var/www/html/assets
 COPY cache /var/www/html/cache
 COPY config /var/www/html/config
 COPY content /var/www/html/content
 COPY plugins /var/www/html/plugins
 COPY themes /var/www/html/themes
-
 COPY index.php /var/www/html/index.php
 COPY composer.json /var/www/html/composer.json
+COPY composer.lock /var/www/html/composer.lock
+
 
 # Install Composer (dependency manager)
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
