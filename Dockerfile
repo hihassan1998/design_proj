@@ -1,9 +1,6 @@
 # Use the official PHP image with Apache as a base image
 FROM php:8.0-apache
 
-# Enable Apache mod_rewrite for clean URLs
-RUN a2enmod rewrite
-
 # Set the working directory to the web server's document root
 WORKDIR /var/www/html
 
