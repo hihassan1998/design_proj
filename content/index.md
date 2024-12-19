@@ -18,6 +18,7 @@ At Ludviga & Co., we are committed to providing expert legal advice and services
 </p>
 
 ## Our Areas of Expertise
+
 <p class="p2">
 We offer a wide range of legal services tailored to meet the diverse needs of our clients:
 </p>
@@ -58,18 +59,25 @@ We offer a wide range of legal services tailored to meet the diverse needs of ou
        Protecting your creative ideas, inventions, and trademarks through intellectual property law.
         </p>
     </div>
+    <!-- <div class=" borders three-d part">
+        <div class=" part">
+                <img src="%base_url%/assets/img/lawCover.jpg" class="" alt="Logo for company">
+        </div>
+        <div class="part">
+            <h3> Intellectual Property
+            </h3>
+        </div>
+    </div> -->
 </div>
 <!-- ![Profile Picture](assets/img/hassanicon.png){.hero} -->
 
 <p class="p2">
 
-
-
 </p>
 
 ## Why Choose Ludviga & Co.?
 
-<p class="p3">
+<!-- <p class="p3">
 - Expert Legal Advisors: Our law-yers are highly skilled, experienced, and committed to achieving the best outcomes for our clients.
  <br><br>
 - Tailored Services: We understand that each legal situation is unique, and we provide solutions that are personalized to your specific needs.
@@ -77,4 +85,40 @@ We offer a wide range of legal services tailored to meet the diverse needs of ou
 - Client-Centric Approach: Your success is our priority. We work closely with you to understand your goals and develop strategies that align with them.
  <br><br>
 - Trusted and Reliable: With years of experience, we have built a reputation for integrity, reliability, and professionalism in the legal field.
-</p>
+</p> -->
+
+<div class="flex-container">
+
+<div class=" soft-borders three-d part">
+        <div class=" part">
+                <img src="%base_url%/assets/img/lawCover.jpg" class="soft-img" alt="Logo for company">
+            <h3> Expert Legal Advisors
+            </h3>
+</div>
+</div>
+<div class=" soft-borders three-d part">
+        <div class=" part">
+                <img src="%base_url%/assets/img/lawCover.jpg" class="soft-img" alt="Logo for company">
+            <h3> Tailored Services
+            </h3>
+</div>
+</div>
+<div class=" soft-borders three-d part">
+        <div class=" part">
+                <img src="%base_url%/assets/img/lawCover.jpg" class="soft-img" alt="Logo for company">
+        </div>
+        <div class="part">
+            <h3> Client-Centric Approach
+            </h3>
+        </div>
+</div>
+<div class="soft-borders three-d part ">
+        <div class=" part">
+                <img src="%base_url%/assets/img/lawCover.jpg" class="soft-img" alt="Logo for company">
+        </div>
+        <div class="part">
+            <h3> Trusted and Reliable
+            </h3>
+        </div>
+</div>
+</div>

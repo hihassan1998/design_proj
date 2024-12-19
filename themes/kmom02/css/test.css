@@ -22,7 +22,7 @@ h2 {
   letter-spacing: 0.05em;
   line-height: 1.15em;
   word-break: break-word;
-  text-shadow: 1rem 1rem white;
+  /* text-shadow: 2px 2px white; */
 }
 
 .no-shadow {
@@ -57,14 +57,20 @@ h2 {
 }
 
 .p1:hover {
-  color: #f35000;
+  cursor: pointer;
+  color: #1a1b41;
 }
+
 .p2:hover {
-  color: #f35000;
+  cursor: pointer;
+  color: #1a1b41;
 }
+
 .p3:hover {
-  color: #f35000;
+  color: #1a1b41;
+  cursor: pointer;
 }
+
 /* implementing lines design element */
 
 .hero {
@@ -96,9 +102,11 @@ h2 {
     padding: 25px !important;
   }
 
-  /* .hero {
-    display: block !important;
-  } */
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
 }
 
 /* advocate byrå designings */
@@ -112,6 +120,7 @@ h2 {
   font-size: 1.25rem;
   /* font-weight: 600; */
 }
+
 .part {
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
@@ -120,6 +129,10 @@ h2 {
   gap: 25px;
   align-items: center;
   object-fit: contain;
+}
+
+.soft-img{
+border-radius: 15px;
 }
 
 /* .container {
@@ -131,225 +144,49 @@ h2 {
   transform-origin: top;
 } */
 
-.img-1{
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.img-1 {
   max-width: 35%;
   object-fit: fill;
 }
-.borders{
-  padding: 25px;
-  border: 6px dotted #f35000;
+*{
+  line-height: 2.5rem;
 }
+.borders {
+  padding: 25px;
+  border: 6px dotted #1a1b41;
 
+}
+.soft-borders {
+  padding: 15px;
+  border: 6px dotted #1a1b41;
+  border-radius: 25px;
+}
 .three-d:hover {
   cursor: pointer;
   transform: translateY(-10px);
-  box-shadow: 1rem 1rem #f35000;
+  box-shadow: 1rem 1rem #1a1b41;
+  transform: scale(1.04);
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 @media (max-width: 786px) {
 
   .contactlayout {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr) !important;
-  }
-}
-
-
-
-
-
-
-
-
-/* .landingpage {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-flow: row;
-
-  border: 1px dotted orangered;
-  gap: 20px;
-  padding: 20px;
-}
-
-.landingpage h1 {
-  grid-row: 1;
-  grid-column: span 3;
-  color: teal;
-  justify-self: center;
-}
-
-.box {
-  background-color: #f4f4f4;
-  padding: 15px;
-  border: 5px solid black;
-  text-align: start;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
-  font-size: 2rem;
-  font-weight: 600;
-  height: 150px;
-}
-
-.box:nth-child(3n + 1) {
-  background-color: #a1d6b2;
-}
-
-.box:nth-child(3n + 2) {
-  background-color: #c9e6f0;
-}
-
-.box:nth-child(3n) {
-  background-color: #f96e2a;
-}
-
-.box-1a {
-  grid-column: span 3;
-  grid-row: 2;
-  text-align: center;
-
-}
-
-.box-2a {
-  grid-column: span 3;
-  grid-row: 3;
-  text-align: center;
-
-}
-
-.box-3a {
-  grid-column: span 3;
-  grid-row: 4;
-  text-align: center;
-}
-.box.wide-a {
-  grid-column: span 3;
- grid-auto-rows: auto;
-} */
-
-/* technology/sub/.md Layout */
-
-/* .subpage-layout {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-flow: column;
-    border: 1px dotted orangered;
-    gap: 20px;
-    padding: 20px;
-} */
-
-/* Content for Sub-Pages */
-/* .subpage-content {
-    grid-column: 2 / span 2;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-} */
-
-/* Sidebar for Sub-Pages */
-/* .subpage-sidebar {
-    max-width: 250px;
-    background: #a6d7eb;
-    padding: 15px;
-    border-radius: 8px;
-}
-
-.subpage-sidebar ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.subpage-sidebar li {
-    margin-bottom: 10px;
-}
-
-.subpage-sidebar li a {
-    text-decoration: none;
-    color: #333;
-} */
-
-/*
-
-@media (max-width: 767px) {
-    .subpage-layout {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: repeat(1, 1fr);
-        grid-auto-flow: column;
-        border: 1px dotted orangered;
-        gap: 20px;
-        padding: 20px;
-    }
-
-    .subpage-sidebar {
-        grid-row: 1;
-        grid-column: span 2;
-        background: #a6d7eb;
-        padding: 15px;
-        border-radius: 8px;
-    max-width:none;
-
-    }
-
-    .subpage-content {
-        grid-column: span 2;
-        grid-row: 2;
-        background: #ffffff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
-    }
-} */
-
-/** Gallery css starts*/
-
-/* 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 35px;
-  justify-items: center;
-}
-
-@media (max-width: 768px) {
-  .gallery {
-    grid-template-columns: 1fr;
-    gap: 15px;
-  }
-  .grid-video {
-    grid-column: span 1 !important;
-    width: 100%;
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 }
-
-.gallery img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  cursor: pointer;
-
-  border: 2px solid black;
-  border-radius: 15px;
-
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../../../assets/img/law2.jpg") !important;
+  object-fit: contain;
+  background: center;
+  /* filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(330deg); */
 }
-.grid-video {
-  width: 100%;
-  height: 100%;
-  grid-column: span 3;
-  grid-row: span 20;
-  border: 2px solid black;
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: lightgray;
-}
-
-.grid-video iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-
-.gallery img:hover {
-  transform: scale(1.04);
-  transition: transform 0.3s ease, background-color 0.3s ease;
-} */

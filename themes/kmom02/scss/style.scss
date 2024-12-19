@@ -32,9 +32,7 @@ html,
 body {
   height: 100%;
 }
-p{
-  color: #fff;
-}
+
 /* Lists */
 ol,
 ul {
@@ -57,22 +55,23 @@ ul {
   flex: 0 0 auto;
   padding: 15px;
 }
+// .header{
+//   background-image: url("../../../assets/img/lawCover.jpg"); 
 
+// }
 .header,
 .site-header {
   display: flex;
   justify-content: space-between;
   // background-color: $header-bg-color; // Imported variable
-  background-color: $footer-bg-color; // Imported variable
-
   h1 {
-    color: $earthy-font;
+    // color: $earthy-font;
     font-size: 2em;
     text-shadow: none;
   }
 
   a {
-    color: #772700;
+    color: #000;
   }
 
   a,
@@ -97,10 +96,10 @@ h3,
 h4,
 h5,
 h6 {
+  color: #000;
   margin-bottom: 0.6em;
   margin-top: 0.6em;
   font-weight: bold;
-  color: $earthy-font !important;
   word-break: break;
 }
 
@@ -111,7 +110,7 @@ h2 {
   letter-spacing: 0.05em;
   line-height: 1.15em;
   word-break: break-word;
-  text-shadow: 1rem 1rem #fff;
+  // text-shadow: 2px 2px #fff;
 }
 
 
@@ -146,25 +145,27 @@ img {
 
   border-top: 1px solid #222;
   // background-color: $footer-bg-color; // Imported variable
-  background-color: $header-bg-color; // Imported variable
+  background-color: $footer-bg-color; // Imported variable
 
   align-items: center;
   flex-direction: column-reverse;
   text-align: center;
-
+p{
+  color: #fff;
+}
   .fa {
     margin: 10px;
     padding: 0 20px;
   }
 
   .fa:hover {
-    color: $earthy-font;
+    color: $lime;
     cursor: pointer;
   }
 }
 
 .footer a {
-  color: #222;
+  color: #fff;
 }
 
 .footer .social {
@@ -208,7 +209,7 @@ img {
 }
 
 .nav ul li:nth-child(even) a {
-  color: #772700;
+  color: $dark-blue;
 }
 
 @media (max-width: 767px) {
@@ -231,7 +232,7 @@ img {
     display: block;
     padding: 0.5em 0;
 
-    border: 2px solid $earthy-font;
+    border: 2px solid $dark-blue;
     border-radius: 15px;
     margin-bottom: 15px;
     background-color: $background-color;
@@ -253,7 +254,7 @@ img {
     text-align: center;
     cursor: pointer;
 
-    border: 2px solid $earthy-font;
+    border: 2px solid $dark-blue;
     border-radius: 15px;
     margin-bottom: 15px;
     background-color: $background-color;
@@ -272,7 +273,7 @@ h6 {
 }
 
 .active {
-  border: 2px dotted $earthy-font;
+  border: 2px dotted $dark-blue;
   background-color: $background-color;
   padding: 5px;
   border-radius: 5px;

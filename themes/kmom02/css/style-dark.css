@@ -348,7 +348,7 @@ pre code {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: row;
-  border: 1px dotted #baff29;
+  border: 1px dotted #fff;
   gap: 20px;
   padding: 20px;
 }
@@ -383,7 +383,7 @@ pre code {
   background-color: #a1d6b2;
 }
 .box:nth-child(3n+2) {
-  background-color: #6290c3;
+  background-color: #1a1b41;
 }
 .box-1 {
   grid-column: span 2;
@@ -421,7 +421,7 @@ pre code {
   grid-template-columns: 20% auto;
   grid-auto-flow: row;
   grid-auto-flow: column;
-  border: 1px dotted #baff29;
+  border: 1px dotted #fff;
   gap: 20px;
   padding: 20px;
   overflow-wrap: break-word;
@@ -458,7 +458,7 @@ pre code {
     justify-items: center;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-flow: column;
-    border: 1px dotted #baff29;
+    border: 1px dotted #fff;
     gap: 20px;
     padding: 20px;
   }
@@ -484,14 +484,14 @@ pre code {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: row;
-  border: 1px dotted #baff29;
+  border: 1px dotted #fff;
   gap: 20px;
   padding: 20px;
 }
 .landingpage h1 {
   grid-row: 1;
   grid-column: span 3;
-  color: #baff29;
+  color: #fff;
   justify-self: center;
 }
 @media (max-width: 767px) {
@@ -548,7 +548,7 @@ pre code {
   grid-template-columns: 20% auto;
   grid-auto-flow: row;
   grid-auto-flow: column;
-  border: 1px dotted #baff29;
+  border: 1px dotted #fff;
   gap: 20px;
   padding: 20px;
   overflow-wrap: break-word;
@@ -663,7 +663,7 @@ ul {
 }
 .header h1,
 .site-header h1 {
-  color: #baff29;
+  color: #fff;
 }
 .header a,
 .site-header a {
@@ -699,7 +699,7 @@ h6 {
   margin-bottom: 0.6em;
   margin-top: 0.6em;
   font-weight: bold;
-  color: #baff29;
+  color: #fff;
 }
 
 p,
@@ -739,7 +739,7 @@ img {
   padding: 0 20px;
 }
 .footer .fa:hover {
-  color: #baff29;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -806,7 +806,7 @@ img {
   .nav ul li a {
     display: block;
     padding: 0.5em 0;
-    border: 2px solid #baff29;
+    border: 2px solid #fff;
     border-radius: 15px;
     margin-bottom: 15px;
     background-color: #3a3a3a;
@@ -825,7 +825,7 @@ img {
     line-height: 2em;
     text-align: center;
     cursor: pointer;
-    border: 2px solid #baff29;
+    border: 2px solid #fff;
     border-radius: 15px;
     margin-bottom: 15px;
     background-color: #3a3a3a;
@@ -833,7 +833,7 @@ img {
   }
 }
 .active {
-  border: 2px dotted #baff29;
+  border: 2px dotted #fff;
   background-color: #3a3a3a;
   padding: 5px;
   border-radius: 5px;
