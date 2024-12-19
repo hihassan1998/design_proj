@@ -7,6 +7,9 @@ RUN a2enmod rewrite
 # Set the working directory to the web server's document root
 WORKDIR /var/www/html
 
+RUN composer install --no-dev --optimize-autoloader
+
+
 # Copy the Pico CMS files into the container
 COPY . /var/www/html/
 
