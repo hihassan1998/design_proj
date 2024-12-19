@@ -40,7 +40,7 @@ RUN composer install --no-dev --optimize-autoloader
 
 # Install Node dependencies in themes
 WORKDIR /var/www/html/themes
-RUN npm Install
+RUN npm install
 
 # Build Sass or any other build commands (optional)
 RUN npm run style
