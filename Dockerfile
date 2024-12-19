@@ -22,8 +22,5 @@ RUN composer install --no-dev --optimize-autoloader --working-dir=/var/www/html
 # Set proper permissions for the web server
 RUN chown -R www-data:www-data /var/www/html
 
-# Expose port 80 for HTTP
-EXPOSE 80
-
 # Run Apache in the foreground
 CMD ["apache2-foreground"]
