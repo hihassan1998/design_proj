@@ -8,9 +8,11 @@ RUN apt-get update && apt-get install -y \
     libfreetype6-dev \
     zip \
     git \
+    curl \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install gd \
-    && docker-php-ext-install pdo pdo_mysql
+    && docker-php-ext-install pdo pdo_mysql \
+    && apt-get install -y nodejs npm 
 
 # Enable Apache mod_rewrite (for URL rewrites)
 RUN a2enmod rewrite
@@ -35,6 +37,13 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 
 # Install PHP dependencies via Composer
 RUN composer install --no-dev --optimize-autoloader
+
+# Install Node dependencies in themes
+WORKDIR /var/www/html/themes
+RUN npm Install
+
+# Build Sass or any other build commands (optional)
+RUN npm run style
 
 # Set file permissions to allow Apache to access files
 RUN chown -R www-data:www-data /var/www/html
