@@ -349,7 +349,7 @@ pre code {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: row;
-  border: 1px dotted #f35000;
+  border: 1px dotted #baff29;
   gap: 20px;
   padding: 20px;
 }
@@ -384,7 +384,7 @@ pre code {
   background-color: #a1d6b2;
 }
 .box:nth-child(3n+2) {
-  background-color: #c9e6f0;
+  background-color: #6290c3;
 }
 .box-1 {
   grid-column: span 2;
@@ -422,7 +422,7 @@ pre code {
   grid-template-columns: 20% auto;
   grid-auto-flow: row;
   grid-auto-flow: column;
-  border: 1px dotted #f35000;
+  border: 1px dotted #baff29;
   gap: 20px;
   padding: 20px;
   overflow-wrap: break-word;
@@ -459,7 +459,7 @@ pre code {
     justify-items: center;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-flow: column;
-    border: 1px dotted #f35000;
+    border: 1px dotted #baff29;
     gap: 20px;
     padding: 20px;
   }
@@ -485,14 +485,14 @@ pre code {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: row;
-  border: 1px dotted #f35000;
+  border: 1px dotted #baff29;
   gap: 20px;
   padding: 20px;
 }
 .landingpage h1 {
   grid-row: 1;
   grid-column: span 3;
-  color: #f35000;
+  color: #baff29;
   justify-self: center;
 }
 @media (max-width: 767px) {
@@ -549,7 +549,7 @@ pre code {
   grid-template-columns: 20% auto;
   grid-auto-flow: row;
   grid-auto-flow: column;
-  border: 1px dotted #f35000;
+  border: 1px dotted #baff29;
   gap: 20px;
   padding: 20px;
   overflow-wrap: break-word;
@@ -664,7 +664,7 @@ pre code {
 }
 
 body {
-  background-color: #fbf8ef;
+  background-color: #1a1b41;
   font-family: "Lato", sans-serif;
   line-height: 1.5rem;
   color: #000;
@@ -677,6 +677,10 @@ body {
 html,
 body {
   height: 100%;
+}
+
+p {
+  color: #fff;
 }
 
 /* Lists */
@@ -706,11 +710,11 @@ ul {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #c9e6f0;
+  background-color: #6290c3;
 }
 .header h1,
 .site-header h1 {
-  color: #f35000;
+  color: #baff29;
   font-size: 2em;
   text-shadow: none;
 }
@@ -744,7 +748,7 @@ h6 {
   margin-bottom: 0.6em;
   margin-top: 0.6em;
   font-weight: bold;
-  color: #f35000 !important;
+  color: #baff29 !important;
   word-break: break;
 }
 
@@ -785,7 +789,7 @@ img {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
-  background-color: #cedf9f;
+  background-color: #c2e7da;
   align-items: center;
   flex-direction: column-reverse;
   text-align: center;
@@ -795,7 +799,7 @@ img {
   padding: 0 20px;
 }
 .footer .fa:hover {
-  color: #f35000;
+  color: #baff29;
   cursor: pointer;
 }
 
@@ -862,10 +866,10 @@ img {
   .nav ul li a {
     display: block;
     padding: 0.5em 0;
-    border: 2px solid #f35000;
+    border: 2px solid #baff29;
     border-radius: 15px;
     margin-bottom: 15px;
-    background-color: #fbf8ef;
+    background-color: #1a1b41;
     padding: 5px;
   }
   .nav ul .active {
@@ -881,10 +885,10 @@ img {
     line-height: 2em;
     text-align: center;
     cursor: pointer;
-    border: 2px solid #f35000;
+    border: 2px solid #baff29;
     border-radius: 15px;
     margin-bottom: 15px;
-    background-color: #fbf8ef;
+    background-color: #1a1b41;
     padding: 5px;
   }
 }
@@ -899,8 +903,8 @@ h6 {
 }
 
 .active {
-  border: 2px dotted #f35000;
-  background-color: #fbf8ef;
+  border: 2px dotted #baff29;
+  background-color: #1a1b41;
   padding: 5px;
   border-radius: 5px;
 }
