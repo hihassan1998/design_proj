@@ -1,7 +1,7 @@
 # Use the official PHP image with Apache as a base image
 FROM php:8.0-apache
 
-# Install required system dependencies
+# Install required PHP extensions
 RUN apt-get update && apt-get install -y \
     libpng-dev \
     libjpeg62-turbo-dev \
@@ -9,8 +9,7 @@ RUN apt-get update && apt-get install -y \
     zip \
     git \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install gd \
-    && docker-php-ext-install pdo pdo_mysql
+    && docker-php-ext-install gd pdo pdo_mysql
 
 # Enable Apache mod_rewrite (for URL rewrites)
 RUN a2enmod rewrite
@@ -18,17 +17,8 @@ RUN a2enmod rewrite
 # Set the working directory to the web server's document root
 WORKDIR /var/www/html
 
-# Copy the application files to the web server directory
-COPY assets /var/www/html/assets
-COPY cache /var/www/html/cache
-COPY config /var/www/html/config
-COPY content /var/www/html/content
-COPY plugins /var/www/html/plugins
-COPY themes /var/www/html/themes
-COPY index.php /var/www/html/index.php
-COPY composer.json /var/www/html/composer.json
-COPY composer.lock /var/www/html/composer.lock
-
+# Copy Pico CMS files to the web server directory
+COPY . /var/www/html/
 
 # Install Composer (dependency manager)
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
