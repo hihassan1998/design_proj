@@ -9,14 +9,14 @@ Description: En kort beskrivning av tekniker som används i portföljen.
 At Ludviga & Co. Legal Advisors, we are more than just a law firm – we are a trusted partner for individuals and businesses seeking reliable, insightful, and effective legal solutions. With a deep understanding of the law and a commitment to excellence, we help our clients navigate complex legal challenges with confidence and clarity.
 </p>
 
-<div class="about-container">
+<!-- <div class="about-container"> -->
 <h2>
 Our Story
 </h2>
 <p class="p2">
 Founded by Ludviga Af Solstråle, Ludviga & Co. was established with a single mission: to provide comprehensive, ethical, and results-driven legal services to those in need of expert guidance. Our team of experienced attorneys and legal advisors bring years of diverse experience across multiple practice areas, making us one of the most trusted law firms in the region.
 </p>
-</div>
+<!-- </div> -->
 
 <h2>
 Our Values
