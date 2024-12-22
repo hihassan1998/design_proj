@@ -185,8 +185,16 @@ border-radius: 15px;
 .header {
   display: flex;
   justify-content: space-between;
-  background-image: url("../../../assets/img/law2.jpg") !important;
+  background-image: url("../../../assets/img/banner.jpg") !important;
   object-fit: contain;
   background: center;
   /* filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(330deg); */
+}
+.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  background-image: url("../../../assets/img/law4.jpg") !important;
+  object-fit: contain;
+  background: center;
 }
