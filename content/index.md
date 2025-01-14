@@ -75,17 +75,18 @@ We offer a wide range of legal services tailored to meet the diverse needs of ou
 
 </p>
 
-## Why Choose Ludviga & Co.?
+## Why Choose Ludviga & Co.? 
 
-<!-- <p class="p3">
-- Expert Legal Advisors: Our law-yers are highly skilled, experienced, and committed to achieving the best outcomes for our clients.
+<p class="p3">
+- <b>Expert Legal Advisors:</b> Our law-yers are highly skilled, experienced, and committed to achieving the best outcomes for our clients.
  <br><br>
-- Tailored Services: We understand that each legal situation is unique, and we provide solutions that are personalized to your specific needs.
+- <b>Tailored Services:</b> We understand that each legal situation is unique, and we provide solutions that are personalized to your specific needs.
  <br><br>
-- Client-Centric Approach: Your success is our priority. We work closely with you to understand your goals and develop strategies that align with them.
+- <b>Client-Centric Approach:</b> Your success is our priority. We work closely with you to understand your goals and develop strategies that align with them.
  <br><br>
-- Trusted and Reliable: With years of experience, we have built a reputation for integrity, reliability, and professionalism in the legal field.
-</p> -->
+- <b>
+Trusted and Reliable:</b> With years of experience, we have built a reputation for integrity, reliability, and professionalism in the legal field.
+</p>
 
 <div class="flex-container">
 
@@ -98,7 +99,7 @@ We offer a wide range of legal services tailored to meet the diverse needs of ou
 </div>
 <div class=" soft-borders three-d part">
         <div class=" part">
-                <img src="%base_url%/assets/img/lawCover.jpg" class="soft-img" alt="Logo for company">
+                <img src="%base_url%/assets/img/law4.jpg" class="soft-img" alt="Logo for company">
             <h3> Tailored Services
             </h3>
 </div>
@@ -114,7 +115,7 @@ We offer a wide range of legal services tailored to meet the diverse needs of ou
 </div>
 <div class="soft-borders three-d part ">
         <div class=" part">
-                <img src="%base_url%/assets/img/lawCover.jpg" class="soft-img" alt="Logo for company">
+                <img src="%base_url%/assets/img/law4.jpg" class="soft-img" alt="Logo for company">
         </div>
         <div class="part">
             <h3> Trusted and Reliable

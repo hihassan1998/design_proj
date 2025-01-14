@@ -54,7 +54,13 @@ h2 {
   font-size: 2rem;
   line-height: 1em;
   letter-spacing: normal;
+  padding-bottom: 20px;
 }
+/* .p33 {
+  display: flex;
+  flex-direction: column;
+margin-bottom: 25px;
+} */
 
 .p1:hover {
   cursor: pointer;
