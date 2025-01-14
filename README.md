@@ -34,7 +34,7 @@ To get started with this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hihassan1998/ludviga-co-legal-advisors.git
+   git clone https://github.com/hihassan1998/design_proj.git
     ```
 2. Open index.html in your preferred browser through XAMPP-server and view the website.
 
