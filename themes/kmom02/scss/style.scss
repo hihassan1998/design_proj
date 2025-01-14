@@ -55,6 +55,7 @@ ul {
   flex: 0 0 auto;
   padding: 15px;
 }
+
 // .header{
 //   background-image: url("../../../assets/img/lawCover.jpg"); 
 
@@ -63,6 +64,7 @@ ul {
 .site-header {
   display: flex;
   justify-content: space-between;
+
   // background-color: $header-bg-color; // Imported variable
   h1 {
     // color: $earthy-font;
@@ -152,9 +154,13 @@ img {
   align-items: center;
   flex-direction: column-reverse;
   text-align: center;
-p{
-  color: #fff;
-}
+
+  p {
+    display: contents;
+    text-align: center;
+    color: #fff;
+  }
+
   .fa {
     margin: 10px;
     padding: 0 20px;
@@ -289,13 +295,15 @@ h6 {
   border-radius: 40%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-.flex-container{
+
+.flex-container {
   display: flex;
   flex-direction: row;
   gap: 25px;
 }
+
 @media (max-width: 767px) {
-  .flex-container{
+  .flex-container {
     display: flex;
     flex-direction: column !important;
     gap: 25px;

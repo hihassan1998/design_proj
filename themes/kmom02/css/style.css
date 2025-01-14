@@ -790,6 +790,8 @@ img {
   text-align: center;
 }
 .footer p {
+  display: contents;
+  text-align: center;
   color: #fff;
 }
 .footer .fa {
