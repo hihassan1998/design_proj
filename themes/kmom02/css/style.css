@@ -709,12 +709,14 @@ ul {
 }
 .header h1,
 .site-header h1 {
+  color: #ccc;
+  font-weight: 900;
   font-size: 2em;
   text-shadow: none;
 }
 .header a,
 .site-header a {
-  color: #000;
+  color: #fff;
 }
 .header a,
 .header p,
@@ -839,11 +841,11 @@ img {
 }
 
 .nav ul li:nth-child(odd) a {
-  color: #333 !important;
+  color: #e7e7e7 !important;
 }
 
 .nav ul li:nth-child(even) a {
-  color: #1a1b41;
+  color: #ffffff;
 }
 
 @media (max-width: 767px) {
@@ -862,10 +864,10 @@ img {
   .nav ul li a {
     display: block;
     padding: 0.5em 0;
-    border: 2px solid #1a1b41;
+    border: 4px solid #fff;
     border-radius: 15px;
     margin-bottom: 15px;
-    background-color: #fbf8ef;
+    background-color: #333;
     padding: 5px;
   }
   .nav ul .active {
@@ -900,7 +902,7 @@ h6 {
 
 .active {
   border: 2px dotted #1a1b41;
-  background-color: #fbf8ef;
+  background-color: #333;
   padding: 5px;
   border-radius: 5px;
 }
@@ -914,6 +916,19 @@ h6 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+@media (max-width: 767px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column !important;
+    gap: 25px;
+  }
+}
 .snapshots {
   display: flex;
   width: auto;

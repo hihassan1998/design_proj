@@ -102,11 +102,7 @@ h2 {
     padding: 25px !important;
   }
 
-  .flex-container{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-  }
+
 }
 
 /* advocate byrå designings */
@@ -144,11 +140,7 @@ border-radius: 15px;
   transform-origin: top;
 } */
 
-.flex-container{
-  display: flex;
-  flex-direction: row;
-  gap: 25px;
-}
+
 
 .img-1 {
   max-width: 35%;
@@ -197,4 +189,23 @@ border-radius: 15px;
   background-image: url("../../../assets/img/law4.jpg") !important;
   object-fit: contain;
   background: center;
+}
+
+.responsive-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 80vh;
+  margin-bottom: 25px;
+
+}
+
+.responsive-image img {
+  border: 4px solid #fff;
+  border-radius: 15px;
+  max-width: 90%; /* Limits image size on larger screens */
+  height: auto; /* Maintains aspect ratio */
+  margin: 0 auto;
 }

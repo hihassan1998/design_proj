@@ -3,22 +3,20 @@ Title: Highlights
 Description: This is my Highlights page.
 # Template: technologies
 Template: gallery
-
 ---
 
 # Highlights sidan
-<!-- <div class="box-a box-a-1a">
-    Kmom04: 01_colors
-    <a href="%base_url%?highlights/items/01_colors" class="read-more">Read More</a>
-</div> -->
 
 <div class="gallery">
     <div class=" soft-borders  three-d part">
-        <div class=" part">
-                <img src="%base_url%/assets/img/lawCover.jpg" class="" alt="Logo for company">
+        <div class="part">
+                <img src="%base_url%/assets/img/work.jpg" class="" alt="Logo for company">
         </div>
         <div class="part">
             <h3> Criminal Defense
+             <br>
+            <br>
+                 <a href="%base_url%?highlights/items/criminal" class="read-more">Read More</a>
             </h3>
         </div>
     </div>
@@ -28,6 +26,9 @@ Template: gallery
         </div>
         <div class="part">
             <h3> Family Law
+            <br>
+            <br>
+                 <a href="%base_url%?highlights/items/family" class="read-more">Read More</a>
             </h3>
         </div>
     </div>
@@ -37,80 +38,54 @@ Template: gallery
         </div>
         <div class="part">
             <h3> Intellectual Property
+            <br>
+            <br>
+                 <a href="%base_url%?highlights/items/intelect" class="read-more">Read More</a>
             </h3>
         </div>
     </div>
     <div class=" soft-borders three-d part">
         <div class=" part">
-                <img src="%base_url%/assets/img/law2.jpg" class="" alt="Logo for company">
+                <img src="%base_url%/assets/img/law3.jpg" class="" alt="Logo for company">
         </div>
         <div class="part">
-            <h3> Intellectual Property
+            <h3> Corporate Law
+            <br>
+            <br>
+                 <a href="%base_url%?highlights/items/corporate" class="read-more">Read More</a>
             </h3>
         </div>
     </div>
     <div class=" soft-borders three-d part">
         <div class=" part">
-                <img src="%base_url%/assets/img/law2.jpg" class="" alt="Logo for company">
+                <img src="%base_url%/assets/img/law4.jpg" class="" alt="Logo for company">
         </div>
         <div class="part">
-            <h3> Intellectual Property
+            <h3> Employment Law
+            <br>
+            <br>
+                 <a href="%base_url%?highlights/items/employ" class="read-more">Read More</a>
             </h3>
         </div>
     </div>
     <div class=" soft-borders three-d part">
         <div class=" part">
-                <img src="%base_url%/assets/img/law2.jpg" class="" alt="Logo for company">
+                <img src="%base_url%/assets/img/work2.jpg" class="" alt="Logo for company">
         </div>
         <div class="part">
-            <h3> Intellectual Property
+            <h3> Real Estate Law
+                        <br>
+            <br>
+                 <a href="%base_url%?highlights/items/real" class="read-more">Read More</a>
             </h3>
         </div>
     </div>
 
-
-  <a href="%base_url%/image/galleri/food10.jpg" target="_blank">
-    <picture>
-      <source media="(max-width: 786px)" srcset="%base_url%/image/galleri/food10.jpg?w=420&h=420&crop-to-fit" />
-      <source media="(min-width: 800px)" srcset="%base_url%/image/galleri/food10.jpg?w=800&h=600&crop-to-fit" />
-      <img src="%base_url%/image/galleri/food10.jpg?w=800&h=600&crop-to-fit" alt="Bild på burgare-3">
-    </picture>
-  </a>
-      <div>
-    empty space
-    </div>    <div>
-    empty space
-    </div>
-        <div class="borders three-d">
-        <h3> Corporate Law
-        </h3>
-        <p >
-        From business formation and contracts to mergers and acquisitions, we provide expert legal guidance to businesses of all sizes.
-        </p>
-    </div>
-    <div class="borders three-d">
-        <h3> Corporate Law
-        </h3>
-        <p >
-        Compassionate and thorough legal assistance for matters including divorce, child custody, and inheritance disputes.
-        </p>
-    </div>
-
-  <!-- <div class="grid-video">
-    <iframe 
-      src="https://www.youtube.com/embed/FrUfwpaNNIM?si=bxBMoZ0TBu83L3nd" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      referrerpolicy="strict-origin-when-cross-origin" 
-      allowfullscreen>
-    </iframe>
-  </div> -->
 </div>
 <br>
 <br>
-<div class="box-a wide-a">
+<!-- <div class="box-a wide-a">
     SESSION-knappar
     <a href="?action=session_destroy">Destroy Session</a>
     <a href="?action=theme">Swap theme</a>
-</div>
+</div> -->

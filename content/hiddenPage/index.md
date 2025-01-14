@@ -1,9 +1,14 @@
 ---
+Title: Docs
+Description: Documentation that came with Pico.
+hidden: true
+---
+---
 Title: Färg analys på webbplatser
 Description: This is my Sub Analysis page.
 ---
 
-# Färg analys på webbplatser
+# Krav 2
 
 Uppgiften handlar om att analysera färgpaletter på tre svenska myndighetswebbplatser för att förstå deras användning av färger utifrån färgteori och dess påverkan på användarupplevelse och kommunikation.
 

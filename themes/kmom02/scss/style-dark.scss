@@ -62,10 +62,9 @@ ul {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: $header-bg-color-d; // Imported variable
-
   h1 {
     color: $earthy-font;
+    word-break: break-word;
   }
 
   a {

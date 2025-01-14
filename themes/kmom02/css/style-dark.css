@@ -659,11 +659,11 @@ ul {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #292929;
 }
 .header h1,
 .site-header h1 {
   color: #fff;
+  word-break: break-word;
 }
 .header a,
 .site-header a {

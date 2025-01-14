@@ -52,7 +52,7 @@ Our Values
 </div>
 <div class=" soft-borders three-d part">
         <div class=" part">
-                <img src="%base_url%/assets/img/banner.jpg" class="soft-img" alt="Logo for company">
+                <img src="%base_url%/assets/img/lawCover.jpg" class="soft-img" alt="Logo for company">
         </div>
         <div class="part">
             <h3> Client-Focused
@@ -62,15 +62,16 @@ Our Values
 <div class="soft-borders three-d part ">
         <div class=" part">
                 <i class="fa-solid fa-mug-hot"></i>
-                <!-- <img src="%base_url%/assets/img/law4.jpg" class="soft-img" alt="Logo for company"> -->
+                <img src="%base_url%/assets/img/law4.jpg" class="soft-img" alt="Logo for company">
         </div>
         <div class="part">
             <h3> Innovation
             </h3>
         </div>
 </div>
+Här finns en länk till den dolda sidan:<a style="color: blue;" href="%base_url%?technology"> Technologies</a>
 </div>
-
+?hiddenPage
 <!-- - **HTML, CSS och JavaScript** för sidstrukturen och design.
 - **Twig-templating** som används med Pico CMS för att rendera sidor dynamiskt.
 - **Font Awesome** för ikoner som används i sidan.
