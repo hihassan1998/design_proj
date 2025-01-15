@@ -709,7 +709,7 @@ ul {
 }
 .header h1,
 .site-header h1 {
-  color: #ccc;
+  color: #fff;
   font-weight: 900;
   font-size: 2em;
   text-shadow: none;
@@ -748,15 +748,71 @@ h6 {
   word-break: break;
 }
 
-h1,
-h2 {
+h1 {
   font-family: fantasy;
   font-size: 5rem !important;
   letter-spacing: 0.05em;
   line-height: 1.15em;
-  word-break: break-word;
 }
 
+h2 {
+  font-family: fantasy;
+  font-size: 4rem !important;
+  letter-spacing: 0.05em;
+  line-height: 1.15em;
+}
+
+.p1 {
+  font-size: 3rem;
+  line-height: 1em;
+  letter-spacing: normal;
+}
+
+.p2 {
+  font-size: 2.5rem;
+  line-height: 1em;
+  letter-spacing: normal;
+}
+
+.p3 {
+  font-size: 2rem;
+  line-height: 1em;
+  letter-spacing: normal;
+  padding-bottom: 20px;
+}
+
+.p1:hover {
+  cursor: pointer;
+  color: #1a1b41;
+}
+
+.p2:hover {
+  cursor: pointer;
+  color: #1a1b41;
+}
+
+.p3:hover {
+  color: #1a1b41;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 3.5rem !important;
+  }
+  h2 {
+    font-size: 3rem !important;
+  }
+  .p1 {
+    font-size: 2.5rem !important;
+  }
+  .p2 {
+    font-size: 2rem !important;
+  }
+  .p3 {
+    font-size: 1.5rem !important;
+  }
+}
 p,
 td,
 th,
@@ -847,7 +903,7 @@ img {
 }
 
 .nav ul li:nth-child(even) a {
-  color: #ffffff;
+  color: #fff;
 }
 
 @media (max-width: 767px) {

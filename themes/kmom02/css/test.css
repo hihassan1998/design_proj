@@ -15,7 +15,7 @@
 /* text-shadow: 10px 5px 5px white;
 text-shadow: 1rem 1rem white; */
 
-h1 {
+/* h1 {
   font-family: fantasy;
   font-size: 5rem !important;
   letter-spacing: 0.05em;
@@ -30,7 +30,7 @@ h2 {
   line-height: 1.15em;
   word-break: break-word;
   /* text-shadow: 2px 2px white; */
-}
+} */
 
 .no-shadow {
   text-shadow: none;
@@ -45,7 +45,7 @@ h2 {
 }
 
 /* implementing lines design element */
-.p1 {
+/* .p1 {
   font-size: 3rem;
   line-height: 1em;
   letter-spacing: normal;
@@ -63,7 +63,7 @@ h2 {
   line-height: 1em;
   letter-spacing: normal;
   padding-bottom: 20px;
-}
+} */
 
 /* .p33 {
   display: flex;
@@ -71,7 +71,7 @@ h2 {
 margin-bottom: 25px;
 } */
 
-.p1:hover {
+/* .p1:hover {
   cursor: pointer;
   color: #1a1b41;
 }
@@ -84,7 +84,7 @@ margin-bottom: 25px;
 .p3:hover {
   color: #1a1b41;
   cursor: pointer;
-}
+} */
 
 /* implementing lines design element */
 
