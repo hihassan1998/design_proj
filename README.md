@@ -22,6 +22,8 @@ Ludviga & Co. Legal Advisors is a law firm founded by **Ludviga Af Solstråle**,
 - **Contact Form**: A contact form to schedule consultations and get in touch with the firm.
 - **About Section**: Detailed information about the firm’s history, team, and services.
 - **Modern Design**: Clean, professional layout reflecting the firm's values of integrity and excellence.
+## **Visual Overview**
+![ludvigaSS](https://github.com/user-attachments/assets/8bef12cd-dbb8-408d-9d1a-d948bd5a7e8b)
 
 ## **Technologies Used**
 - **HTML**: For the basic structure of the site.
