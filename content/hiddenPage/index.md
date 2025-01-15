@@ -63,7 +63,7 @@ Mörkt tema: Bakgrunden (#3a3a3a) skapar en modern och sofistikerad känsla, med
 
 **Brödtext:** latos, sans-serif;
 
-Detta färgschema är också **split-komplementärt**, vilket förstärker den moderna och stilrena känslan genom balans och subtil variation.
+Dessa  färgschema är **split-komplementärt**, vilket förstärker den moderna och stilrena känslan genom balans och subtil variation.
 
 Rubriker är större än vanligt för att skapa tydlig hierarki och uppmärksamhet. På startsidan och "Om oss"-sidan har första textdelen en extremt stor storlek för att sätta fokus på innehållet, följt av en något mindre text för andra delen, och till sist en normal textstorlek för tredje delen. Detta skapar en dynamisk och engagerande lässtruktur.
 
