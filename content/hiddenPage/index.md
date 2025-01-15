@@ -1,17 +1,21 @@
 ---
-Title: Färg analys på webbplatsen
-Description: Documentation that came with theme.
+Title: Temadokumentation
+Description: Documentation with theme.
 hidden: true
 ---
 
-# Dokumentation till Krav 2 och krav 4
-
-Uppgiften handlar om att analysera färgpaletter på tre svenska myndighetswebbplatser för att förstå deras användning av färger utifrån färgteori och dess påverkan på användarupplevelse och kommunikation.
+# Dokumentation av Tema och Färgschema
+<p class="p1">
+Den här dokumentationen beskriver hur färgpaletten och designprinciperna har valts och implementerats för att skapa en användarvänlig webbplats som reflekterar kundens önskemål och profil. Uppdelningen av SASS-koden i moduler presenteras också, vilket bidrar till underhåll och flexibilitet i projektet.
+</p>
 
 
 
 ## Färgpalett och val av färger
+
+<p class="p2">
 Färgpaletten för projektet är noggrant utvald för att skapa en harmonisk upplevelse med två teman: ljust och mörkt.
+</p>
 
 ### (Uppdrag 2: Tema)
 
@@ -25,7 +29,7 @@ Ljust tema: Bakgrunden (#fbf8ef) ger en ren och neutral bas som kompletteras av 
 <td style="height: 100px; border: 2px solid #f96e2a; width: 100px; background-color: #1a1b41;
 ">
 <td style="height: 100px; border: 2px solid #f96e2a; width: 100px; background-color: #f35000">
-<td style="height: 100px; border: 2px solid #f96e2a; width: 100px; background-color: ##ccc">
+<td style="height: 100px; border: 2px solid #f96e2a; width: 100px; background-color: #ccc">
 <td style="height: 100px; border: 2px solid #f96e2a; width: 100px; background-color: #FFFFFF">
 <td style="height: 100px; border: 2px solid #f96e2a; width: 100px; background-color: #fafafa">
 <td style="height: 100px; border: 2px solid #f96e2a; width: 100px; background-color: #fbf8ef">
@@ -76,7 +80,5 @@ SASS-koden är modulärt uppdelad för att säkerställa enkel underhåll och sk
 - Komponenter: Navigering, rubriker och andra återanvändbara element har egna filer för att främja återanvändbarhet.
 - Typografi: Stilar för olika typsnitt, rubrikstorlekar och textskalor hanteras centralt för enhetlighet.
 - Mediaqueries och variabler: Gemensamma stilar och funktioner hanteras centralt för att minska duplicering av kod.
-
-## Övrigt
 
 **Författare: Hassan Hussain (hahi24)**

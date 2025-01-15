@@ -217,7 +217,7 @@ img {
 }
 
 .nav ul li:nth-child(even) a {
-  color: #ffffff;
+  color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -265,7 +265,7 @@ img {
     border: 2px solid $dark-blue;
     border-radius: 15px;
     margin-bottom: 15px;
-    background-color: $background-color;
+    background-color: #333;
     padding: 5px;
   }
 }

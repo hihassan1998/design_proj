@@ -30,6 +30,12 @@ Our Values
          <br><br>
         Innovation: The legal landscape is constantly evolving, and we strive to stay ahead by using the latest legal technologies and strategies.
 </p>
+<div class="flex-container">
+<p class="p2">
+Här finns en länk till den dolda sidan:<a style="color: blue;" href="%base_url%?hiddenPage"> "hiddenPage"</a>
+</p>
+</div>
+
 
 <!-- Denna sida är byggd med följande teknologier: -->
 <br><br>
@@ -69,9 +75,9 @@ Our Values
             </h3>
         </div>
 </div>
-Här finns en länk till den dolda sidan:<a style="color: blue;" href="%base_url%?technology"> Technologies</a>
+
 </div>
-?hiddenPage
+
 <!-- - **HTML, CSS och JavaScript** för sidstrukturen och design.
 - **Twig-templating** som används med Pico CMS för att rendera sidor dynamiskt.
 - **Font Awesome** för ikoner som används i sidan.

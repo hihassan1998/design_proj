@@ -57,6 +57,7 @@ h2 {
   letter-spacing: normal;
   padding-bottom: 20px;
 }
+
 /* .p33 {
   display: flex;
   flex-direction: column;
@@ -108,11 +109,9 @@ margin-bottom: 25px;
   .main-home {
     padding: 25px !important;
   }
- .header h1 {
-  font-size: 1.5em !important;
-  font-family: 'Lato', sans-serif;
-  line-height: 0 !important;
-  word-break: break;
+
+  .header h1 {
+    display: ruby !important;
   }
 
 
@@ -141,8 +140,8 @@ margin-bottom: 25px;
   object-fit: contain;
 }
 
-.soft-img{
-border-radius: 15px;
+.soft-img {
+  border-radius: 15px;
 }
 
 /* .container {
@@ -160,19 +159,23 @@ border-radius: 15px;
   max-width: 35%;
   object-fit: fill;
 }
-*{
+
+* {
   line-height: 2.5rem;
 }
+
 .borders {
   padding: 25px;
   border: 6px dotted #1a1b41;
 
 }
+
 .soft-borders {
   padding: 15px;
   border: 6px dotted #1a1b41;
   border-radius: 25px;
 }
+
 .three-d:hover {
   cursor: pointer;
   transform: translateY(-10px);
@@ -188,6 +191,7 @@ border-radius: 15px;
     grid-template-columns: repeat(1, 1fr) !important;
   }
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -196,10 +200,11 @@ border-radius: 15px;
   background: center;
   /* filter: sepia(100%) saturate(200%) brightness(70%) hue-rotate(330deg); */
 }
-.about-container{
+
+.about-container {
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   background-image: url("../../../assets/img/law4.jpg") !important;
   object-fit: contain;
   background: center;
@@ -219,18 +224,21 @@ border-radius: 15px;
 .responsive-image img {
   border: 4px solid #fff;
   border-radius: 15px;
-  max-width: 90%; /* Limits image size on larger screens */
-  height: auto; /* Maintains aspect ratio */
+  max-width: 90%;
+  /* Limits image size on larger screens */
+  height: auto;
+  /* Maintains aspect ratio */
   margin: 0 auto;
 }
 
-.footer-note{
+.footer-note {
   font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 footer p {
   display: contents !important;
   text-align: center !important;
